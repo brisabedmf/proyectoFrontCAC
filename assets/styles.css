@@ -1,0 +1,100 @@
+header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #5b575a;
+}
+
+#logoPrincipal {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+
+#navegacion {
+    color:#cdcccd;
+}
+
+#navegacion a{
+    margin-right: 1vw;
+}
+
+#texto-blanco {
+    color: white;
+}
+
+#texto-verde {
+    color:#41bd26;
+}
+
+.portada {
+    --opacidad-negro: 0.5;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("./imagenes/ba1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #41bd26;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color:white;
+    padding: 3vw;
+}
+
+#alineado-izquierda {
+    text-align: end;
+    width: 50%;
+}
+
+.contenedor-botones {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#boton-transparente {
+    background-color: none;
+    border: gainsboro solid 0.5px;
+    border-radius: 10px;
+    padding: 1vh;
+    width: 14vw;
+}
+
+#boton-verde {
+    background-color: #41bd26;
+    border: gainsboro solid 0.5px;
+    border-radius: 10px;
+    padding: 1vh;
+    margin-left: 1vw;
+    width: 14vw;
+}
+
+
+@media screen and (max-width:1000px){
+    header {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    #navegacion {
+        margin-top: 1vh;
+        margin-left: 2vw;
+    }
+
+}
+
+@media screen and (max-width:650px){
+    
+    #navegacion{
+        display: flex;
+        flex-direction: column;
+    }
+}
