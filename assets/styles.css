@@ -76,6 +76,74 @@ header {
     width: 14vw;
 }
 
+.contenedor-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    margin-right: 3vw;
+}
+
+#oradores {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos-categorias {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.icono-js {
+    background-color: #f0e040;
+    border: #f0e040 solid 0.5px;
+    border-radius: 10px;
+    padding: 0.5vh;
+    margin-right: 0.5vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.icono-react {
+    background-color: #25d8d0;
+    border: #25d8d0 solid 0.5px;
+    border-radius: 10px;
+    padding: 0.5vh;
+    margin-right: 0.5vw;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.icono-negocios {
+    background-color: #798484;
+    border: #798484 solid 0.5px;
+    border-radius: 10px;
+    padding: 0.5vh;
+    margin-right: 0.5vw;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.icono-startups {
+    background-color: #f7212a;
+    border: #f7212a solid 0.5px;
+    border-radius: 10px;
+    padding: 0.5vh;
+    margin-right: 0.5vw;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+
 
 @media screen and (max-width:1000px){
     header {
@@ -89,6 +157,14 @@ header {
         margin-left: 2vw;
     }
 
+    .contenedor-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 2vh;
+    }
 }
 
 @media screen and (max-width:650px){
