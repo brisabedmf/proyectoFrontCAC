@@ -146,7 +146,7 @@ header {
 }
 
 .info-honolulu {
-    margin-top: 2vh;
+    margin-top: 6vh;
     margin-bottom: 2vh;
 }
 
@@ -168,6 +168,77 @@ header {
     margin-top: 1vh;
 }
 
+footer {
+    background-color: #10658f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+footer a {
+    padding: 4vh 2vw;
+}
+
+#ser-orador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#less-margin {
+    margin-bottom: 0.5vh;
+}
+
+em {
+    font-style: normal;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.boton-enviar {
+    background-color: #45df30;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.ingresar-datos-oradores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: block;
+    width: 60%;
+}
+
+#texto-form {
+    width: 100%;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+}
+
+#nombre-apellido {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"]{
+    width: 29.5vw;
+}
+
+#nombre {
+    margin-right: 10px;
+}
 
 @media screen and (max-width:1000px){
     header {
