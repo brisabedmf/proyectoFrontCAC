@@ -59,12 +59,13 @@ header {
     align-items: center;
 }
 
-#boton-transparente {
+.boton-transparente {
     background-color: none;
     border: gainsboro solid 0.5px;
     border-radius: 10px;
     padding: 1vh;
     width: 14vw;
+    text-align: center;
 }
 
 #boton-verde {
@@ -142,6 +143,29 @@ header {
     color:white;
     font-weight: bold;
     text-align: center;
+}
+
+.info-honolulu {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+
+.imagen-honolulu{
+    background-color: #434142;
+    background-image: url("./imagenes/honolulu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.fondo-gris {
+    background-color: #434142;
+    color:white;
+}
+
+#titulo-honolulu {
+    margin-top: 1vh;
 }
 
 
