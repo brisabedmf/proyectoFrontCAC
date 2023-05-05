@@ -64,7 +64,7 @@ header {
     border: gainsboro solid 0.5px;
     border-radius: 10px;
     padding: 1vh;
-    width: 14vw;
+    min-width: 14vw;
     text-align: center;
 }
 
@@ -74,7 +74,7 @@ header {
     border-radius: 10px;
     padding: 1vh;
     margin-left: 1vw;
-    width: 14vw;
+    min-width: 14vw;
 }
 
 .contenedor-cards {
@@ -168,21 +168,6 @@ header {
     margin-top: 1vh;
 }
 
-footer {
-    background-color: #10658f;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-    margin-top: 3vh;
-}
-
-footer a {
-    padding: 4vh 2vw;
-}
-
 #ser-orador {
     display: flex;
     flex-direction: column;
@@ -239,6 +224,16 @@ input[type="text"]{
 
 #nombre {
     margin-right: 10px;
+}
+
+footer {
+    background-color: #10658f;
+    color: white;
+    text-align: center;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width:1000px){
